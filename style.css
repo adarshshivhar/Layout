@@ -1,0 +1,69 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.card-bg{
+    background-color: #f1f3f5;
+}
+
+
+ul.striped-list > li {
+    border-bottom: 1px solid rgb(221,221,221);
+}
+ul.striped-list > li:nth-of-type(odd) {
+    background-color: #e9e9f9 ;
+}
+ul.striped-list > li:last-child {
+    border-bottom: none;
+}
+
+.light-green{
+    color: #02aab0;
+}
+
+.invisibleb {
+  visibility: hidden;
+}
+
+.my-small{
+  font-size: small;
+}
+
+.checked{
+  color: orange;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
